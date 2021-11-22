@@ -1,8 +1,8 @@
 .central{
   text-align: -webkit-center;
   transform: scale(1);
-  padding-top: 25%;
-  padding-bottom: 25%;
+  padding-top: 20%;
+  padding-bottom: 20%;
 }
 
 .c-loader {
