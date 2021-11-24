@@ -1,8 +1,11 @@
+body{
+  overflow-x: hidden;
+  overflow-y: hidden;
+}
+
 .central{
   text-align: -webkit-center;
   transform: scale(1);
-  padding-top: 20%;
-  padding-bottom: 20%;
 }
 
 .c-loader {
@@ -37,5 +40,15 @@ span{
 
 .logo{
   text-align: -webkit-center;
+  margin-top: -7%;
+}
+
+main.container{
+  width: 100vw;
+    height: 100vh;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
 }
 
