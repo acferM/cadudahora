@@ -2,15 +2,13 @@ export default {
   title: 'dark',
 
   colors: {
-    white_50: '#FAFAFA',
-    white_100: '#FFF',
-
-    gray_25: '#BCBCBC',
-    gray_50: '#8C8C8C',
-    gray_75: '#575757',
-    gray_85: '#212121',
-    gray_100: '#131219',
-
+    background_primary: '#FFF',
+    background_secondary: '#FAFAFA',
+    subtitle: '#575757',
+    text: '#1A1A1A',
+    text_detail: '#8C8C8C',
+    shape: '#E7E7E7',
+    shape_border: '#BCBCBC',
     purple: '#AA00FE',
   },
 
