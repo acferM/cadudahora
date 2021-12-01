@@ -18,6 +18,11 @@ export default {
       font-weight: 'bold';
       font-size: 3.375rem;
     `,
+    nav: `
+      font-family: 'Poppins';
+      font-weight: 'bold';
+      font-size: 1.25rem;
+    `,
     subtitle: `
       font-family: 'Inter';
       font-size: 1.5625rem;

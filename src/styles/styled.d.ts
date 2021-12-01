@@ -17,6 +17,7 @@ declare module 'styled-components' {
 
     fonts: {
       title: string;
+      nav: string;
       subtitle: string;
       default: string;
       button_primary: string;
