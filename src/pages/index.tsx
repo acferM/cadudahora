@@ -1,4 +1,5 @@
 import { Carousel } from 'react-responsive-carousel';
+import { FiChevronDown } from 'react-icons/fi';
 
 import { Header } from '../components/Header';
 
@@ -18,7 +19,11 @@ export default function Home() {
           <footer>
             <button type="button">ORÇAMENTO</button>
 
-            <button type="button">VER PROJETOS</button>
+            <button type="button">
+              {' '}
+              <FiChevronDown size={20} />
+              VER PROJETOS :)
+            </button>
           </footer>
         </main>
 
@@ -34,6 +39,7 @@ export default function Home() {
             interval={3000}
             showArrows={false}
             showStatus={false}
+            showThumbs={false}
             renderIndicator={(onClickHandler, isSelected) => (
               <SliderIndicator
                 onClick={onClickHandler}

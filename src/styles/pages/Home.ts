@@ -30,18 +30,33 @@ export const HomeSection = styled.section`
         height: 4rem;
         width: 15.6875rem;
         border-radius: 0.625rem;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 0.875rem;
         ${props => props.theme.fonts.button_secondary};
 
         &:nth-child(1) {
           border: 0;
           background: ${props => props.theme.colors.purple};
           color: ${props => props.theme.colors.background_primary};
+          transition: filter 0.2s;
+
+          &:hover {
+            filter: brightness(0.8);
+          }
         }
 
         &:nth-child(2) {
           border: 1px solid ${props => props.theme.colors.purple};
           background: transparent;
           color: ${props => props.theme.colors.purple};
+          transition: all 0.2s;
+
+          &:hover {
+            background: ${props => props.theme.colors.purple};
+            color: ${props => props.theme.colors.background_primary};
+          }
         }
       }
     }
